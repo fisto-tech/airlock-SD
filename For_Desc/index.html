@@ -214,6 +214,23 @@
       }
     }
   </style>
+
+    <style>
+  /* Mobile & Tablet background override */
+  @media (max-width: 1024px) {
+    .catalog-app {
+      background-image: url('../global assets/icons/background-mobile-img.webp') !important;
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+    }
+     body{
+      background-image: url('../global assets/icons/background-mobile-img.webp') !important;
+    }
+  }
+
+
+</style>
 </head>
 
 <body>
@@ -353,11 +370,11 @@
           <li class="mob-tb-link tb-link" data-page="3" data-audio-path="../audios/description.mp3"><a>Description</a></li>
           <li class="mob-tb-link tb-link" data-page="4" data-audio-path="../audios/features.mp3"><a>Features</a></li>
           <li class="mob-tb-link tb-link" data-page="4" data-audio-path="../audios/applications.mp3"><a>Applications</a></li>
-          <li class="mob-tb-link tb-link" data-page="4" data-audio-path="../audios/designs.mp3"><a>Designs</a></li>
-          <li class="mob-tb-link tb-link" data-page="4" data-audio-path="../audios/options.mp3"><a>Options</a></li>
-          <!-- <li class="mob-tb-link tb-link" data-page="5" data-audio-path="../audios/bt-description.mp3"><a>BT Description</a></li> -->
-          <li class="mob-tb-link tb-link" data-page="5" data-audio-path="../audios/dimension-details.mp3"><a>Dimension Details</a></li>
-          <li class="mob-tb-link tb-link" data-page="10" data-audio-path="../audios/contact_us.mp3"><a>Contact us</a></li>
+          <li class="mob-tb-link tb-link" data-page="4" data-audio-path="../audios/Design&Options.mp3"><a>Designs & Options</a></li>
+          <li class="mob-tb-link tb-link" data-page="5" data-audio-path="../audios/write-up.mp3"><a>Write-up</a></li>
+          <li class="mob-tb-link tb-link" data-page="6" data-audio-path="../audios/Specifications.mp3"><a>Specifications</a></li>
+          <li class="mob-tb-link tb-link" data-page="7" data-audio-path="../audios/dimension-details.mp3"><a>Dimension Details</a></li>
+          <li class="mob-tb-link tb-link" data-page="16" data-audio-path="../audios/contact_us.mp3"><a>Contact us</a></li>
       
         </ul>
       </nav>
@@ -451,14 +468,29 @@
             </a></li>
           <li class="tb-link cursor-pointer" data-page="8"><a
               class="w-full h-[6vw] flex flex-col items-center justify-center"> <img
-                src="../global-assets/thumbnail-images/page-8.webp" class="h-full w-auto mx-auto" />
+                src="../global-assets/thumbnail-images/page-8-9.webp" class="h-full w-auto mx-auto" />
               <p class="text-[.6vw] text-center mt-[.2vw]">page 8-9</p>
             </a></li>
-
             <li class="tb-link cursor-pointer" data-page="10"><a
               class="w-full h-[6vw] flex flex-col items-center justify-center"> <img
-                src="../global-assets/thumbnail-images/page-10.webp" class="h-full w-auto mx-auto" />
-              <p class="text-[.6vw] text-center mt-[.2vw]">page 10</p>
+                src="../global-assets/thumbnail-images/page-10-11.webp" class="h-full w-auto mx-auto" />
+              <p class="text-[.6vw] text-center mt-[.2vw]">page 10-11</p>
+            </a></li>
+            <li class="tb-link cursor-pointer" data-page="12"><a
+              class="w-full h-[6vw] flex flex-col items-center justify-center"> <img
+                src="../global-assets/thumbnail-images/page-12-13.webp" class="h-full w-auto mx-auto" />
+              <p class="text-[.6vw] text-center mt-[.2vw]">page 12-13</p>
+            </a></li>
+            <li class="tb-link cursor-pointer" data-page="14"><a
+              class="w-full h-[6vw] flex flex-col items-center justify-center"> <img
+                src="../global-assets/thumbnail-images/page-14-15.webp" class="h-full w-auto mx-auto" />
+              <p class="text-[.6vw] text-center mt-[.2vw]">page 14-15</p>
+            </a></li>
+
+            <li class="tb-link cursor-pointer" data-page="16"><a
+              class="w-full h-[6vw] flex flex-col items-center justify-center"> <img
+                src="../global-assets/thumbnail-images/page-16.webp" class="h-full w-auto mx-auto" />
+              <p class="text-[.6vw] text-center mt-[.2vw]">page 16</p>
             </a></li>
 
         </ul>
@@ -579,19 +611,13 @@
         <div id="flipbook" class="ui-flipbook">
 
 
-          <!-- ************************* Start**************************** -->
-
-
-
-
-
+          <!-- ************************* Start 15 **************************** -->
 
 
           <!-- ************************* End**************************** -->
 
 
           <!-- *************************page 1 Start**************************** -->
-
           <div class="page">
             <img src="../global-assets/pages/page-1/background-img.webp" alt="background-img"
               class="absolute w-[100%] h-[100%] top-[0%] left-[0%]" />
@@ -604,11 +630,9 @@
             <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
               class="absolute top-0 left-[-1%] h-[100%] z-19" />
           </div>
-
           <!-- *************************page 1 End**************************** -->
 
           <!-- *************************page 2 Start**************************** -->
-
            <div class="page">
             <img src="../global-assets/pages/page-2/background-img.webp" alt="background-img"
               class="absolute w-[100%] h-[100%] top-[0%] left-[0%]" />
@@ -688,7 +712,7 @@
               class="absolute w-[100%] h-[100%] top-[0%] left-[0%]" />
             
             <img src="../global-assets/pages/page-4/text.svg" alt="text"
-              class="absolute w-[80%] top-[5%] right-[10%]" />
+              class="absolute w-[85%] top-[5%] right-[7.5%]" />
               <img src="../global-assets/pages/page-4/efficient-handling-solution-text.svg" alt="text"
               class="absolute w-[50%] bottom-[4.2%] right-[6%] down-img" />
             <img src="../global-assets/pages/page-4/03.svg" alt="03" class="absolute w-[4%] bottom-[0.2%] left-[47.5%]" />
@@ -696,38 +720,31 @@
               class="absolute top-0 right-[-2%] h-[100%] rotate-180 shadow-mobile" />
           </div>
           <!-- *************************page 4 End**************************** -->
-
           <!-- *************************page 5 Start**************************** -->
           <div class="page">
             <img src="../global-assets/pages/page-5/background-img.webp" alt="background-img"
               class="absolute w-[100%] h-[100%] top-[0%] left-[0%]" />
-            <img src="../global-assets/pages/page-5/top-heading.svg" alt="dimension-of-sdtd-valve"
-              class="absolute w-[55%] top-[4%] right-[3%]" />
+           
             <img src="../global-assets/pages/page-5/product-image.webp" alt="product-img"
-              class="absolute w-[100%] top-[0%] left-[0%] popup_image" />
+              class="absolute w-[36%] top-[1%] left-[3%] popup_image" />
             <img src="../global-assets/pages/page-5/text.svg" alt="text"
-              class="absolute w-[85%] bottom-[7%] left-[7.5%]" />
-            <a href="../lightBox/index.html#DTD-model" target="_blank"> <img
-                src="../global-assets/pages/page-5/360-icon.webp" alt="product-img"
-                class="absolute w-[20%] top-[45%] left-[12%] " /></a>
-            <img src="../global-assets/pages/page-5/play-icon.webp" alt="text"
-              class="absolute w-[20%] top-[15%] right-[8%] cursor-pointer" />
+              class="absolute w-[90%] top-[10%] left-[5%]" />
             <img src="../global-assets/pages/page-5/04.svg" alt="03" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
             <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
               class="absolute top-0 left-[-1%] h-[100%] z-19" />
           </div>
           <!-- *************************page 5 End**************************** -->
-
           <!-- *************************page 6 Start**************************** -->
           <div class="page">
             <img src="../global-assets/pages/page-6/background-img.webp" alt="background-img"
-              class="absolute w-[100%] h-[100%] top-[0%] left-[0%]"/>
-            <img src="../global-assets/pages/page-6/heading.svg" alt="heading"
-              class="absolute w-[55%] top-[4%] left-[6%]" />
+              class="absolute w-[100%] h-[100%] top-[0%] left-[0%]" />
+           
             <img src="../global-assets/pages/page-6/product-image.webp" alt="product-img"
-              class="absolute w-[88%] top-[6%] left-[6%]" />
-            <img src="../global-assets/pages/page-6/text-table.svg" alt="text"
-              class="absolute w-[75%] bottom-[6%] left-[6%]" />
+              class="absolute w-[36%] bottom-[1%] left-[5%] popup_image" />
+            <img src="../global-assets/pages/page-6/text.svg" alt="text"
+              class="absolute w-[80%] top-[3%] left-[10%]" />
+              <img src="../global-assets/pages/page-6/Need-something-special-ask-us.svg" alt="text"
+              class="absolute w-[45%] bottom-[3%] right-[2%]" />
             <img src="../global-assets/pages/page-6/05.svg" alt="05" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
             <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
               class="absolute top-0 right-[-2%] h-[100%] rotate-180 shadow-mobile" />
@@ -735,129 +752,215 @@
 
           <!-- *************************page 6 End**************************** -->
           <!-- *************************page 7 Start**************************** -->
-
           <div class="page">
             <img src="../global-assets/pages/page-7/background-img.webp" alt="background-img"
-              class="absolute w-[100%] h-[100%] top-[0%] left-[0%]"/>
-            <img src="../global-assets/pages/page-7/heading.svg" alt="heading"
-              class="absolute w-[55%] top-[4%] left-[6%]" />
+              class="absolute w-[100%] h-[100%] top-[0%] left-[0%]" />
+            <img src="../global-assets/pages/page-7/top-heading.svg" alt="dimension-of-sdtd-valve"
+              class="absolute w-[55%] top-[4%] right-[3%]" />
             <img src="../global-assets/pages/page-7/product-image.webp" alt="product-img"
-              class="absolute w-[92%] top-[8%] left-[4%]" />
-            <img src="../global-assets/pages/page-7/text-table.svg" alt="text"
-              class="absolute w-[88%] top-[49%] left-[6%]" />
-            <img src="../global-assets/pages/page-7/06.svg" alt="05" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
+              class="absolute w-[100%] top-[0%] left-[0%] popup_image" />
+            <img src="../global-assets/pages/page-7/text.svg" alt="text"
+              class="absolute w-[85%] bottom-[7%] left-[7.5%]" />
+            <a href="../lightBox/index.html#SD-model" target="_blank"> <img
+                src="../global-assets/pages/page-7/360-icon.webp" alt="product-img"
+                class="absolute w-[20%] top-[45%] left-[12%] " /></a>
+            <a href="https://youtu.be/P9Tl1nNQ64M?si=sJol4YfkSkxXGjYZ" target="_blank">
+              <img src="../global-assets/pages/page-7/play-icon.webp" alt="text"
+              class="absolute w-[20%] top-[15%] right-[8%] cursor-pointer" />
+            </a>
+            <img src="../global-assets/pages/page-7/06.svg" alt="06" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
             <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
-              class="absolute top-0 left-[-1%] h-[100%] z-19" />
+              class="absolute top-0 left-[-1.5%] h-[100%] z-19" />
           </div>
-
-
           <!-- *************************page 7 End**************************** -->
-
           <!-- *************************page 8 Start**************************** -->
           <div class="page">
             <img src="../global-assets/pages/page-8/background-img.webp" alt="background-img"
               class="absolute w-[100%] h-[100%] top-[0%] left-[0%]"/>
             <img src="../global-assets/pages/page-8/heading.svg" alt="heading"
-              class="absolute w-[55%] top-[4%] left-[6%]" />
+              class="absolute w-[60%] top-[4%] left-[6%]" />
             <img src="../global-assets/pages/page-8/product-image.webp" alt="product-img"
-              class="absolute w-[88%] top-[8%] left-[6%]" />
+              class="absolute w-[88%] top-[14%] left-[6%]" />
             <img src="../global-assets/pages/page-8/text-table.svg" alt="text"
-              class="absolute w-[80%] top-[47%] left-[6%]" />
+              class="absolute w-[90%] top-[40%] left-[5%]" />
             <img src="../global-assets/pages/page-8/07.svg" alt="05" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
             <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
               class="absolute top-0 right-[-2%] h-[100%] rotate-180 shadow-mobile" />
           </div>
-
-
           <!-- *************************page 8 End**************************** -->
-
           <!-- *************************page 9 Start**************************** -->
-
           <div class="page">
             <img src="../global-assets/pages/page-9/background-img.webp" alt="background-img"
               class="absolute w-[100%] h-[100%] top-[0%] left-[0%]"/>
             <img src="../global-assets/pages/page-9/heading.svg" alt="heading"
-              class="absolute w-[55%] top-[4%] left-[6%]" />
+              class="absolute w-[60%] top-[4%] left-[6%]" />
             <img src="../global-assets/pages/page-9/product-image.webp" alt="product-img"
-              class="absolute w-[92%] top-[10%] left-[4%]" />
+              class="absolute w-[88%] top-[12%] left-[6%]" />
             <img src="../global-assets/pages/page-9/text-table.svg" alt="text"
-              class="absolute w-[80%] top-[54%] left-[6%]" />
+              class="absolute w-[90%] top-[40%] left-[5%]" />
             <img src="../global-assets/pages/page-9/08.svg" alt="05" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
             <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
-              class="absolute top-0 left-[-1%] h-[100%] z-19" />
+              class="absolute top-0 left-[-2%] h-[100%]" />
           </div>
-
-
           <!-- *************************page 9 End**************************** -->
-
           <!-- *************************page 10 Start**************************** -->
-
           <div class="page">
             <img src="../global-assets/pages/page-10/background-img.webp" alt="background-img"
+              class="absolute w-[100%] h-[100%] top-[0%] left-[0%]"/>
+            <img src="../global-assets/pages/page-10/heading.svg" alt="heading"
+              class="absolute w-[60%] top-[4%] left-[6%]" />
+            <img src="../global-assets/pages/page-10/product-image.webp" alt="product-img"
+              class="absolute w-[88%] top-[12%] left-[6%]" />
+            <img src="../global-assets/pages/page-10/text-table.svg" alt="text"
+              class="absolute w-[90%] top-[36%] left-[5%]" />
+            <img src="../global-assets/pages/page-10/09.svg" alt="05" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
+            <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
+              class="absolute top-0 right-[-2%] h-[100%] rotate-180 shadow-mobile" />
+          </div>           
+          <!-- *************************page 10 End**************************** -->
+          <!-- *************************page 11 Start**************************** -->
+        <div class="page">
+            <img src="../global-assets/pages/page-11/background-img.webp" alt="background-img"
+              class="absolute w-[100%] h-[100%] top-[0%] left-[0%]"/>
+            <img src="../global-assets/pages/page-11/heading.svg" alt="heading"
+              class="absolute w-[60%] top-[4%] left-[6%]" />
+            <img src="../global-assets/pages/page-11/product-image.webp" alt="product-img"
+              class="absolute w-[88%] top-[12%] left-[6%]" />
+            <img src="../global-assets/pages/page-11/text-table.svg" alt="text"
+              class="absolute w-[90%] top-[36%] left-[5%]" />
+            <img src="../global-assets/pages/page-11/10.svg" alt="05" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
+            <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
+              class="absolute top-0 left-[-2%] h-[100%]" />
+          </div>
+          <!-- *************************page 11 End**************************** -->
+          <!-- *************************page 12 Start**************************** -->
+          <div class="page">
+            <img src="../global-assets/pages/page-12/background-img.webp" alt="background-img"
+              class="absolute w-[100%] h-[100%] top-[0%] left-[0%]"/>
+            <img src="../global-assets/pages/page-12/heading.svg" alt="heading"
+              class="absolute w-[60%] top-[4%] left-[6%]" />
+            <img src="../global-assets/pages/page-12/product-image.webp" alt="product-img"
+              class="absolute w-[80%] top-[10%] left-[10%]" />
+            <img src="../global-assets/pages/page-12/text-table.svg" alt="text"
+              class="absolute w-[90%] top-[47%] left-[5%]" />
+            <img src="../global-assets/pages/page-12/11.svg" alt="05" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
+            <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
+              class="absolute top-0 right-[-2%] h-[100%] rotate-180 shadow-mobile" />
+          </div>           
+          <!-- *************************page 12 End**************************** -->
+          <!-- *************************page 13 Start**************************** -->
+          <div class="page">
+            <img src="../global-assets/pages/page-13/background-img.webp" alt="background-img"
+              class="absolute w-[100%] h-[100%] top-[0%] left-[0%]"/>
+            <img src="../global-assets/pages/page-13/heading.svg" alt="heading"
+              class="absolute w-[60%] top-[4%] left-[6%]" />
+            <img src="../global-assets/pages/page-13/product-image.webp" alt="product-img"
+              class="absolute w-[90%] top-[10%] left-[5%]" />
+            <img src="../global-assets/pages/page-13/text-table.svg" alt="text"
+              class="absolute w-[90%] top-[47%] left-[5%]" />
+            <img src="../global-assets/pages/page-13/12.svg" alt="05" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
+            <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
+              class="absolute top-0 left-[-2%] h-[100%]" />
+          </div>           
+          <!-- *************************page 13 End**************************** -->
+          <!-- *************************page 14 Start**************************** -->
+          <div class="page">
+            <img src="../global-assets/pages/page-14/background-img.webp" alt="background-img"
+              class="absolute w-[100%] h-[100%] top-[0%] left-[0%]"/>
+            <img src="../global-assets/pages/page-14/heading.svg" alt="heading"
+              class="absolute w-[60%] top-[4%] left-[6%]" />
+            <img src="../global-assets/pages/page-14/product-image.webp" alt="product-img"
+              class="absolute w-[90%] top-[10%] left-[5%]" />
+            <img src="../global-assets/pages/page-14/text-table.svg" alt="text"
+              class="absolute w-[90%] top-[42%] left-[5%]" />
+            <img src="../global-assets/pages/page-14/13.svg" alt="13" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
+            <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
+              class="absolute top-0 right-[-2%] h-[100%] rotate-180 shadow-mobile" />
+          </div>
+          <!-- *************************page 14 End**************************** -->
+          <!-- *************************page 15 Start**************************** -->
+          <div class="page">
+            <img src="../global-assets/pages/page-15/background-img.webp" alt="background-img"
+              class="absolute w-[100%] h-[100%] top-[0%] left-[0%]"/>
+            <img src="../global-assets/pages/page-15/heading.svg" alt="heading"
+              class="absolute w-[60%] top-[4%] left-[6%]" />
+            <img src="../global-assets/pages/page-15/product-image.webp" alt="product-img"
+              class="absolute w-[80%] top-[10%] left-[10%]" />
+            <img src="../global-assets/pages/page-15/text-table.svg" alt="text"
+              class="absolute w-[90%] top-[52%] left-[5%]" />
+            <img src="../global-assets/pages/page-15/14.svg" alt="14" class="absolute w-[4%] bottom-[1%] left-[47.5%]" />
+            <img src="../global-assets/pages/right-page-shadow.svg" alt="shadow"
+              class="absolute top-0 left-[-2%] h-[100%] " />
+          </div>          
+          <!-- *************************page 15 End**************************** -->
+          <!-- *************************page 16 Start**************************** -->
+
+          <div class="page">
+            <img src="../global-assets/pages/page-16/background-img.webp" alt="background-img"
               class="absolute w-[100%] h-[100%] top-[0%] left-[0%]" />
-            <img src="../global-assets/pages/page-10/logo.svg" alt="logo"
+            <img src="../global-assets/pages/page-16/logo.svg" alt="logo"
               class="absolute w-[22%]  top-[4%] left-[5%] z-[2] left-img" />
-            <img src="../global-assets/pages/page-10/Solution-Provider-For-Bulk-Solids-Handling.svg" alt="heading"
+            <img src="../global-assets/pages/page-16/Solution-Provider-For-Bulk-Solids-Handling.svg" alt="heading"
               class="absolute w-[45%] top-[5%] right-[4%]" />
-            <img src="../global-assets/pages/page-10/contact-map.gif" alt="contact-map"
+            <img src="../global-assets/pages/page-16/contact-map.gif" alt="contact-map"
               class="absolute w-[100%] top-[10%] left-[0%]" />
 
 
-            <img src="../global-assets/pages/page-10/QR-code.svg" alt="qr-code"
+            <img src="../global-assets/pages/page-16/QR-code.svg" alt="qr-code"
               class="absolute w-[28%] bottom-[2%] left-[3%]" />
 
             <a href="https://www.google.com/maps?q=AIRLOCK+INDIA+PVT.+LTD.,+1/15-8,+Annur+Road,+Arasur,+Ponnandhampalayam,+Thennampalayam,+Tamil+Nadu+641107"
               target="_blank">
-              <img src="../global-assets/pages/page-10/location.svg" id="locationBtn" alt="location"
+              <img src="../global-assets/pages/page-16/location.svg" id="locationBtn" alt="location"
                 class="absolute w-[60%] bottom-[15%] right-[2%] cursor-pointer" />
             </a>
 
             <!-- Phone -->
             <div id="phoneBtn" class="absolute w-[22%] bottom-[12%] right-[30%]" style="z-index:9999; cursor:pointer;">
-              <img src="../global-assets/pages/page-10/phone-number.svg" alt="phone-number" style="width:100%;" />
+              <img src="../global-assets/pages/page-16/phone-number.svg" alt="phone-number" style="width:100%;" />
             </div>
 
             <!-- Email -->
             <div id="emailBtn" class="absolute w-[22%] bottom-[12%] right-[10%]" style="z-index:9999; cursor:pointer;">
-              <img src="../global-assets/pages/page-10/email.svg" alt="email" style="width:100%;" />
+              <img src="../global-assets/pages/page-16/email.svg" alt="email" style="width:100%;" />
             </div>
 
-            <img src="../global-assets/pages/page-10/Sales-offices.svg" alt="sales-offices"
+            <img src="../global-assets/pages/page-16/Sales-offices.svg" alt="sales-offices"
               class="absolute w-[55%] bottom-[5%] right-[3%]" />
 
             <!-- WhatsApp -->
             <div id="whatsappIconBtn" class="absolute w-[3.5%] bottom-[1%] right-[46%]"
               style="z-index:9999; cursor:pointer;">
-              <img src="../global-assets/pages/page-10/Whatsapp-icon.webp" alt="whatsapp" style="width:100%;" />
+              <img src="../global-assets/pages/page-16/Whatsapp-icon.webp" alt="whatsapp" style="width:100%;" />
             </div>
 
             <!-- Instagram -->
             <div id="instagramBtn" class="absolute w-[3.5%] bottom-[1%] right-[40%]"
               style="z-index:9999; cursor:pointer;">
-              <img src="../global-assets/pages/page-10/instagram.webp" alt="instagram" style="width:100%;" />
+              <img src="../global-assets/pages/page-16/instagram.webp" alt="instagram" style="width:100%;" />
             </div>
 
             <!-- Facebook -->
             <div id="facebookIconBtn" class="absolute w-[3.5%] bottom-[1%] right-[34%]"
               style="z-index:9999; cursor:pointer;">
-              <img src="../global-assets/pages/page-10/Facebook-icon.webp" alt="facebook" style="width:100%;" />
+              <img src="../global-assets/pages/page-16/Facebook-icon.webp" alt="facebook" style="width:100%;" />
             </div>
 
             <!-- YouTube -->
             <div id="youtubeBtn" class="absolute w-[4%] bottom-[1%] right-[28%]" style="z-index:9999; cursor:pointer;">
-              <img src="../global-assets/pages/page-10/Youtube-icon.webp" alt="youtube" style="width:100%;" />
+              <img src="../global-assets/pages/page-16/Youtube-icon.webp" alt="youtube" style="width:100%;" />
             </div>
 
             <!-- LinkedIn -->
             <div id="linkedinIconBtn" class="absolute w-[3.5%] bottom-[1%] right-[22%]"
               style="z-index:9999; cursor:pointer;">
-              <img src="../global-assets/pages/page-10/Linkedin-icon.webp" alt="linked in" style="width:100%;" />
+              <img src="../global-assets/pages/page-16/Linkedin-icon.webp" alt="linked in" style="width:100%;" />
             </div>
 
             <!-- Website -->
             <div id="websiteBtn" class="absolute w-[3.5%] bottom-[1%] right-[16%]"
               style="z-index:9999; cursor:pointer;">
-              <img src="../global-assets/pages/page-10/web-icon.webp" alt="web" style="width:100%;" />
+              <img src="../global-assets/pages/page-16/web-icon.webp" alt="web" style="width:100%;" />
             </div>
 
 
@@ -865,7 +968,13 @@
               class="absolute top-0 right-[-2%] h-[100%] rotate-180 shadow-mobile" />
           </div>
 
-          <!-- *************************page 12 End**************************** -->
+
+          <!-- *************************page 16 End**************************** -->
+
+
+
+
+
 
 
 
@@ -1498,37 +1607,40 @@
 
 
 
-  <script>
-    $(document).ready(function () {
-      var isMobile = $(window).width() < 768;
+<script>
+  $(document).ready(function () {
+    var isMobile = $(window).width() < 768;
 
-      if (isMobile) {
-        $('#flipbook').on('touchstart touchmove', '.page-wrapper, .page', function (e) {
-          var $target = $(e.target);
+    if (!isMobile) return;
 
-          // Check if the touch is on locationBtn OR its parent <a> tag OR any clickable element
-          var isControl =
-            $target.is('#locationBtn') ||
-            $target.closest('#locationBtn').length > 0 ||
-            $target.closest('a[href]').length > 0 ||
-            $target.is('a[href]');
+    $('#flipbook').on('touchstart touchmove', '.page-wrapper, .page', function (e) {
+      var $target = $(e.target);
 
-          if (isControl) {
-            // Allow the event to pass through naturally — do NOT block it
-            e.stopImmediatePropagation();
-            return true;
-          }
+      // Allow any interactive / overlay element to work freely
+      var isInteractive =
+        $target.is('a, button, img[id], [data-page]') ||
+        $target.closest('a, button, [id], [data-page]').length > 0 ||
+        $target.closest('#mobileTocPopup').length > 0 ||
+        $target.closest('#mobileDotsPopup').length > 0 ||
+        $target.closest('#mobOverlay').length > 0 ||
+        $target.closest('#locationBtn, #phoneBtn, #emailBtn').length > 0 ||
+        $target.closest('#whatsappIconBtn, #instagramBtn, #facebookIconBtn').length > 0 ||
+        $target.closest('#youtubeBtn, #linkedinIconBtn, #websiteBtn').length > 0;
 
-          // Block flip gestures on non-interactive areas
-          if (e.type === 'touchmove') {
-            e.preventDefault();
-          }
-          e.stopPropagation();
-          return false;
-        });
+      if (isInteractive) {
+        e.stopImmediatePropagation();
+        return true; // Let it through
       }
+
+      // Only block swipe/scroll on non-interactive areas
+      if (e.type === 'touchmove') {
+        e.preventDefault();
+      }
+      e.stopPropagation();
+      return false;
     });
-  </script>
+  });
+</script>
   <script>
     /* Fullscreen Hint Logic */
     (function () {
